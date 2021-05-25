@@ -25,14 +25,45 @@ body{
         margin: auto 0 auto 15px;
         margin-top: auto;
         margin-bottom: auto;
+        
 
         & > button{
+            border-radius: 4px;
             margin-right: 10px;
             height: 70px;
             width: 70px;
         }
+        
     }
 }
+
+.save{
+    background-color: rgb(142, 207, 98);
+    &:hover{
+        background-color: rgb(133, 190, 95);
+    }
+}
+.discard{
+    background-color: rgb(214, 122, 122);
+    &:hover{
+        background-color: rgb(197, 114, 114);
+    }
+}
+
+.change{
+    background-color: rgb(188, 255, 246);
+    &:hover{
+        background-color: rgb(164, 221, 213);
+    }
+}
+.delete{
+    background-color: rgb(255, 38, 38);
+    border-color: rgb(237, 252, 31);
+    &:hover{
+        background-color: rgb(236, 35, 35);
+    }
+}
+
 textarea{
     padding: 10px;
     min-width: 300px;

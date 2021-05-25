@@ -50,9 +50,43 @@ body {
 }
 
 .task > .buttons > button {
+  border-radius: 4px;
   margin-right: 10px;
   height: 70px;
   width: 70px;
+}
+
+.save {
+  background-color: #8ecf62;
+}
+
+.save:hover {
+  background-color: #85be5f;
+}
+
+.discard {
+  background-color: #d67a7a;
+}
+
+.discard:hover {
+  background-color: #c57272;
+}
+
+.change {
+  background-color: #bcfff6;
+}
+
+.change:hover {
+  background-color: #a4ddd5;
+}
+
+.delete {
+  background-color: #ff2626;
+  border-color: #edfc1f;
+}
+
+.delete:hover {
+  background-color: #ec2323;
 }
 
 textarea {

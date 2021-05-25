@@ -44,13 +44,13 @@ class Task extends React.Component{
             />
             {this.state.changing ? 
             <div className="buttons">
-                <button onClick={this.handleSave}>Save</button>
-                <button onClick={this.handleDiscard}>Discard</button>
+                <button className="save" onClick={this.handleSave}>Save</button>
+                <button className="discard" onClick={this.handleDiscard}>Discard</button>
             </div>
                 :
             <div className="buttons">
-                <button onClick={this.handleChange}>Change</button>
-                <button onClick={this.handleDelete}>Delete</button>
+                <button className="change" onClick={this.handleChange}>Change</button>
+                <button className="delete" onClick={this.handleDelete}>Delete</button>
             </div>
         }
             
