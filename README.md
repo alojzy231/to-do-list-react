@@ -1,4 +1,4 @@
-###General info
+### General info
 App is made using React. Informations about current tasks are stored in LocalStorage.
 
 # Getting Started with Create React App
