@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.app{
+    min-width: 500px;
+    border: dashed 3px black;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    & > button{
+        margin: 30px;
+        height: 3em;
+    }
+    & > h1{
+        text-align: center;
+    }
+}
+.task{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    & > .buttons{
+        margin: auto 0 auto 15px;
+        margin-top: auto;
+        margin-bottom: auto;
+
+        & > button{
+            margin-right: 10px;
+            height: 70px;
+            width: 70px;
+        }
+    }
+}
+textarea{
+    padding: 10px;
+    min-width: 300px;
+    max-width: 45vw;
+    font-size: 150%;
+    font-family: serif;
+}

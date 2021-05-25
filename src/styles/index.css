@@ -1,0 +1,65 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.app {
+  min-width: 500px;
+  border: dashed 3px black;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.app > button {
+  margin: 30px;
+  height: 3em;
+}
+
+.app > h1 {
+  text-align: center;
+}
+
+.task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 50px;
+}
+
+.task > .buttons {
+  margin: auto 0 auto 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.task > .buttons > button {
+  margin-right: 10px;
+  height: 70px;
+  width: 70px;
+}
+
+textarea {
+  padding: 10px;
+  min-width: 300px;
+  max-width: 45vw;
+  font-size: 150%;
+  font-family: serif;
+}
+/*# sourceMappingURL=index.css.map */
